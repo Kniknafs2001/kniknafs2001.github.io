@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+  Student Name: Kavon Niknafs
+  File Name: contact.html
+  Date: 04/17/2023
+-->
+
+<html lang="en">
+
+	<head>
+		<title>Contact and Location | Kavon Niknafs</title>
+		<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact me at (479) 849-4206 or email me at kniknafs@atu.edu for work requests.">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+
+    <!-- Mobile Nav -->  
+    <nav class="mobile-nav">
+        <div id="menu-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="programming.html">Programming</a></li>
+			<li><a href="resources.html">Resources</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+          </ul>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+
+    <section class="container">
+
+  <header>
+    <figure>
+      <img src="images/kavon_portrait.jpg" alt="front facing portrait" class="tab-desk">
+    </figure>
+    <figcaption>
+      <h1>Kavon Niknafs</h1>
+      <h2 class="tab-desk">Mission Statement: To innovate computing for a new generation</h2>
+    </figcaption>
+	</header>
+
+	<nav class="tab-desk">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="programming.html">Programming</a></li>
+	  <li><a href="resources.html">Resources</a></li>
+      <li><a href="https://www.instagram.com/" target="_blank">Instagram <img src="images/instagram_logo.png" alt="Instagram logo" height="25" width="25"></a></li>
+      <li><a href="https://twitter.com/" target="_blank">Twitter <img src="images/twitter_logo.png" alt="Twitter logo" height="25" width="25"></a></li>
+    </ul>
+  </nav>
+
+	<main>
+      <h3>Contact Information</h3>
+      <p class="comm-link"><a href="tel:479-849-4206">(479) 849-4206</a></p>
+      <p class="comm-link"><a href=mailto:kavonn2001@gmail.com>kavonn2001@gmail.com</a></p>
+      <p class="comm-link"><a href=mailto:kniknafs@atu.edu>kniknafs@atu.edu</a></p>
+
+      <h3>Arkansas Tech Univsersity</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13025.908099583074!2d-93.1358832120895!3d35.29412681926842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cc5308668a24f7%3A0xadcf40b5dc41909!2sArkansas%20Tech%20University!5e0!3m2!1sen!2sus!4v1675788241974!5m2!1sen!2sus" class="map"></iframe>
+
+      <h2>Complete the form below and I will contact you.</h2>
+      <form action="mailto:kavonn2001@gmail.com" method="post" enctype="text/plain">
+        
+        <fieldset>
+          <legend>Visitor Information</legend>
+
+          <section class="form-left">
+            <label for="fName">First Name:</label>  
+            <input type="text" name="fName" id="fName">
+
+            <label for="lName">Last Name:</label>  
+            <input type="text" name="lName" id="lName"> 
+
+            <label for="email">Email:</label>  
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Phone:</label>  
+            <input type="tel" id="phone" name="phone">
+          </section>
+
+          <section class="form-right">
+            <p style="font-weight: bold;">I am a(n):</p>
+            <label for="prof"> <input type="checkbox" name="occupation" id="prof" value="Professor">Professor</label>
+
+            <label for="empl"><input type="checkbox" name="occupation" id="empl"  value="Employer">Employer</label>
+
+            <label for="recr"><input type="checkbox" name="occupation" id="recr" value="Recruiter">Recruiter</label>
+
+            <label for="other"><input type="checkbox" name="occupation" id="other" value="Other">Other</label>
+          </section>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit" class="btn">
+      </form>
+	</main>
+
+	</section>
+
+	<footer>
+    <div class="copyright">
+      <p class="email">Email: <a href=mailto:kniknafs@atu.edu>kniknafs@atu.edu</a></p>
+      <p>&copy; Copyright 2023. All Rights Reserved.</p>
+    </div>
+	
+    <div class="social">
+      <a href="https://www.instagram.com" target="_blank"><img src="images/instagram_logo.png" alt="instagram logo"></a>
+      <a href="https://www.twitter.com" target="_blank"><img src="images/twitter_logo.png" alt="Twitter logo"></a>
+    </div>
+  </footer>
+
+    <script src="scripts/script.js"></script>
+
+	</body>
+	
+</html>
